@@ -6,7 +6,7 @@ const CreateTask = () => {
       <form action="" method="#" className="task-form form">
         <fieldset className="task-form__route">
           <legend>Nueva ruta</legend>
-          <label htmlFor="farm" className="task-form__route-item">
+          <label htmlFor="farm" className="task-form__route-item ">
             Granja
             <select className="item" id="farm" name="farm">
               <option value="1">Granja 1</option>
