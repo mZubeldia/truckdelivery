@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-//import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
 
 //estilos
 import "../stylesheet/App.scss";
@@ -8,6 +8,7 @@ import "../stylesheet/reset.scss";
 //estructura web
 import Header from "./Header";
 import Footer from "./Footer";
+import Home from "./Home";
 import CreateTask from "./CreateTask";
 import CreateFarm from "./CreateFarm";
 
@@ -19,8 +20,19 @@ const App = () => {
   return (
     <>
       <Header />
-      <CreateTask />
-      {/*<CreateFarm />*/}
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="nueva-granja">
+          <CreateFarm />
+        </Route>
+        <Route path="nueva-tarea">
+          <CreateTask />
+        </Route>
+      </Switch>
+
       <Footer />
     </>
   );

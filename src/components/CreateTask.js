@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 const CreateTask = () => {
   return (
     <main className="main">
+      <Link to="/">Volver </Link>
+
       <h2>Nueva tarea</h2>
 
       <form action="" method="#" className="task-form form">
