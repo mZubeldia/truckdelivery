@@ -1,0 +1,34 @@
+//styles for CreateTask component
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 70%;
+}
+
+.task-form__route-item {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5rem;
+  //margin-right: 0.25rem;
+}
+
+.item {
+  margin-left: 0.5rem;
+}
+
+.item-pig {
+  width: 70px;
+}
+
+.task-btn {
+  width: 4rem;
+  margin-top: 0.5rem;
+}

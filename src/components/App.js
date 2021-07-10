@@ -18,7 +18,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <CreateTask />
+      {/*<CreateTask />*/}
+      <main className="main">
+        <section></section>
+        <h2>Nueva granja</h2>
+        <form action="" method="#" className="farm-form form"></form>
+      </main>
       <Footer />
     </>
   );
