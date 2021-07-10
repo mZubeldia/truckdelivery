@@ -6,7 +6,7 @@ const CreateTask = () => {
       <form action="" method="#" className="task-form form">
         <fieldset className="task-form__route">
           <legend>Nueva ruta</legend>
-          <label htmlFor="farm" className="task-form__route-item ">
+          <label htmlFor="farm" className="form__label ">
             Granja
             <select className="item" id="farm" name="farm">
               <option value="1">Granja 1</option>
@@ -15,7 +15,7 @@ const CreateTask = () => {
             </select>
           </label>
 
-          <label htmlFor="truck" className="task-form__route-item">
+          <label htmlFor="truck" className="form__label">
             Tipo de camión
             <select className="item" id="truck" name="truck">
               <option value="sm">Camión 1</option>
@@ -24,9 +24,9 @@ const CreateTask = () => {
             </select>
           </label>
 
-          <label className="task-form__route-item">
+          <label className="form__label">
             Tipo de carga
-            <label htmlFor="pig-number" className="task-form__route-item">
+            <label htmlFor="pig-number" className="form__label">
               Nº de cerdos
               <input
                 className="item item-pig"
@@ -35,7 +35,7 @@ const CreateTask = () => {
                 type="number"
               />
             </label>
-            <label className="task-form__route-item" htmlFor="pig-type">
+            <label className="form__label" htmlFor="pig-type">
               Tipo de cerdos
               <select className="item" id="pig-type" name="pig-type">
                 <option value="w">Tipo 1</option>
@@ -48,7 +48,7 @@ const CreateTask = () => {
 
         <fieldset>
           <legend>Fecha</legend>
-          <label htmlFor="date" className="task-form__route-item">
+          <label htmlFor="date" className="form__label">
             Fecha de la tarea
             <input className="item" name="date" type="date" />
           </label>
