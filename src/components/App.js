@@ -28,18 +28,18 @@ const App = () => {
           <form className="task-form">
             <fieldset className="task-form__route">
               <legend>Nueva ruta</legend>
-              <label className="task-form__route-item">
+              <label htmlFor="farm" className="task-form__route-item">
                 Granja
-                <select name="farm">
+                <select id="farm" name="farm">
                   <option value="1">Granja 1</option>
                   <option value="2">Granja 2</option>
                   <option value="3">Granja 3</option>
                 </select>
               </label>
 
-              <label className="task-form__route-item">
+              <label htmlFor="truck" className="task-form__route-item">
                 Tipo de camión
-                <select name="truck">
+                <select id="truck" name="truck">
                   <option value="sm">Camión 1</option>
                   <option value="md">Camión 2</option>
                   <option value="bg">Camión 3</option>
@@ -48,13 +48,13 @@ const App = () => {
 
               <label className="task-form__route-item">
                 Tipo de carga
-                <label className="task-form__route-item">
+                <label htmlFor="pig-number" className="task-form__route-item">
                   Nº de cerdos
-                  <input type="number" />
+                  <input id="pig-number" name="pig-number" type="number" />
                 </label>
-                <label>
+                <label htmlFor="pig-type">
                   Tipo de cerdos
-                  <select name="pigs">
+                  <select id="pig-type" name="pig-type">
                     <option value="w">Tipo 1</option>
                     <option value="b">Tipo 2</option>
                     <option value="d">Tipo 3</option>
@@ -65,9 +65,9 @@ const App = () => {
 
             <fieldset>
               <legend>Fecha</legend>
-              <label className="task-form__route-item">
+              <label htmlFor="date" className="task-form__route-item">
                 Fecha de la tarea
-                <input type="date" />
+                <input name="date" type="date" />
               </label>
             </fieldset>
             <button className="task-btn">Crear</button>
