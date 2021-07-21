@@ -1,8 +1,12 @@
 //styles for createFarm component
+.main {
+  background-color: #EEEEEE;
+}
 
-.farm-form {
+.main .farm-form {
     flex-direction: row;
     border: 1px solid black;
+    background-color: #EEEEEE;
   
     display: flex;
     flex-direction: column;

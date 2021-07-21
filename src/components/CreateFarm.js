@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CreateFarm = () => {
   return (
-    <main className="main">
+    <main className="main main__farm">
       <Link to="/">Volver </Link>
 
       <h2>Crear granja</h2>
