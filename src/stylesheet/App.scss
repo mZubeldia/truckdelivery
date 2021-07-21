@@ -1,7 +1,21 @@
-@import "reset";
-@import "createTask";
-@import "createFarm";
-@import "mixins";
+// Core
+@import 'core/reset';
+@import 'core/variables';
+@import 'core/mixins';
+
+// Layout
+//@import 'layout/header';
+//@import 'layout/footer';
+
+
+// Components
+@import 'components/buttons';
+@import 'components/links';
+@import 'components/forms';
+
+
+
+
 
 .header {
   height: 15vh;

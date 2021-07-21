@@ -3,7 +3,6 @@ import { Route, Switch, Link } from "react-router-dom";
 
 //estilos
 import "../stylesheet/App.scss";
-import "../stylesheet/reset.scss";
 
 //estructura web
 import Header from "./Header";
