@@ -1,6 +1,10 @@
+import { Link } from "react-router-dom";
+
 const CreateFarm = () => {
   return (
     <main className="main">
+      <Link to="/">Volver </Link>
+
       <h2>Crear granja</h2>
       <form action="" method="#" className="farm-form form">
         <label htmlFor="new-farm" className="form__label">

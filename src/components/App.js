@@ -25,10 +25,10 @@ const App = () => {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="nueva-granja">
+        <Route path="/nueva-granja">
           <CreateFarm />
         </Route>
-        <Route path="nueva-tarea">
+        <Route path="/nueva-tarea">
           <CreateTask />
         </Route>
       </Switch>
