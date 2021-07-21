@@ -1,19 +1,21 @@
+:root {
+  //margin: 2rem;
+  //$darkBackground: #548CA8;
+  $lightBackground: #EEEEEE ;
+  $lightText: #476072;
+  $darkText: #334257;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   //font-family: 'Roboto', sans-serif;
   font-family: 'Open Sans', sans-serif;
-
+  //background-color: $darkBackground;
 }
 
-:root {
-  //margin: 2rem;
-  $darkBackground: #548CA8;
-  $lightBackground: #EEEEEE ;
-  $lightText: #476072;
-  $darkText: #334257;
-}
+
 
 ol,
 ul {
