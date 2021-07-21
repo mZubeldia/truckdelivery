@@ -9,9 +9,10 @@
 
 :root {
   //margin: 2rem;
-  background-color: #548CA8;
-  //color: #EEEEEE  #476072  #334257
-  
+  $darkBackground: #548CA8;
+  $lightBackground: #EEEEEE ;
+  $lightText: #476072;
+  $darkText: #334257;
 }
 
 ol,
