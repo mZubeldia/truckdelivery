@@ -5,6 +5,7 @@
 
 // Layout
 //@import 'layout/header';
+//@import 'layout/main';
 //@import 'layout/footer';
 
 
@@ -13,20 +14,3 @@
 @import 'components/links';
 @import 'components/forms';
 
-
-
-
-
-.header {
-  height: 15vh;
-  padding: 1rem;
-}
-
-.main {
-  height: 75vh;
-}
-
-.footer {
-  height: 10vh;
-  padding: 1rem;
-}

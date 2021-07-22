@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Route, Switch, Link } from "react-router-dom";
 
-//estilos
-import "../stylesheet/App.scss";
-
 //estructura web
 import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
 import CreateTask from "./CreateTask";
 import CreateFarm from "./CreateFarm";
+
+//estilos
+import "../stylesheet/App.scss";
 
 //servicios
 //import getApiData from "../services/api";
