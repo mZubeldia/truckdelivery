@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 const CreateTask = () => {
   return (
     <main className="main main__task">
-      <Link to="/">Volver </Link>
+      <Link to="/" className="go-back-link">
+        Volver
+      </Link>
 
-      <h2>Nueva tarea</h2>
+      <h2 className="main__title">Nueva tarea</h2>
 
       <form action="" method="#" className="task-form row g-3">
         <div class="col">
