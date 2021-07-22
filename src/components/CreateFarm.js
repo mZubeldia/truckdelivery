@@ -49,10 +49,11 @@ const CreateFarm = () => {
             <div className="mb-3">
               <label htmlFor="others" className="form-label mb-3">
                 Comentarios adicionales
-                <input
+                <textarea
                   className="form-control"
                   type="textarea"
                   name="others"
+                  rows="3"
                   placeholder="Tipo de entrada, hora de apertura, etc."
                 />
               </label>

@@ -28,51 +28,51 @@ const CreateTask = () => {
                 </select>
               </label>
             </div>
-            <div class="mb-3">
-              <label htmlFor="truck" class="form-label">
-                Tipo de camión
-                <select
-                  aria-label=".form-select-sm example"
-                  id="truck"
-                  name="truck"
-                  class="form-select form-select-sm"
-                >
-                  <option selected>Selecciona el tipo de camión</option>
-                  <option value="sm">Camión 1</option>
-                  <option value="md">Camión 2</option>
-                  <option value="bg">Camión 3</option>
-                </select>
-              </label>
-            </div>
+            <label htmlFor="truck" class="form-label">
+              Tipo de camión
+              <select
+                aria-label=".form-select-sm example"
+                id="truck"
+                name="truck"
+                class="form-select form-select-sm"
+              >
+                <option selected>Selecciona el tipo de camión</option>
+                <option value="sm">Camión 1</option>
+                <option value="md">Camión 2</option>
+                <option value="bg">Camión 3</option>
+              </select>
+            </label>
 
             <label className="form-label">
               Tipo de carga
-              <div class="mb-3">
-                <label htmlFor="pig-number" class="form-label">
-                  Nº de cerdos
-                  <input
-                    className="form-control item-pig"
-                    id="pig-number"
-                    name="pig-number"
-                    type="number"
-                  />
-                </label>
-              </div>
-              <div class="mb-3">
-                <label className="form-label" htmlFor="pig-type">
-                  Tipo de cerdos
-                  <select
-                    class="form-select form-select-sm"
-                    aria-label=".form-select-sm example"
-                    id="pig-type"
-                    name="pig-type"
-                  >
-                    <option selected>Selecciona el tipo de cerdos</option>
-                    <option value="w">Tipo 1</option>
-                    <option value="b">Tipo 2</option>
-                    <option value="d">Tipo 3</option>
-                  </select>
-                </label>
+              <div class="mb-3 row">
+                <div class="col">
+                  <label htmlFor="pig-number" class="form-label">
+                    Nº de cerdos
+                    <input
+                      className="form-control item-pig"
+                      id="pig-number"
+                      name="pig-number"
+                      type="number"
+                    />
+                  </label>
+                </div>
+                <div class="col">
+                  <label className="form-label" htmlFor="pig-type">
+                    Tipo de cerdos
+                    <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                      id="pig-type"
+                      name="pig-type"
+                    >
+                      <option selected>Selecciona el tipo de cerdos</option>
+                      <option value="w">Tipo 1</option>
+                      <option value="b">Tipo 2</option>
+                      <option value="d">Tipo 3</option>
+                    </select>
+                  </label>
+                </div>
               </div>
             </label>
           </fieldset>
