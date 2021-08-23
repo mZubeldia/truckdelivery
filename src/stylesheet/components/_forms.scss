@@ -2,12 +2,12 @@
 
 
 .main__farm__title {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.main .farm-form {
+.farm-form {
     flex-direction: row;
-    border: 1px solid black;
+   // border: 1px solid black;
     background-color: #EEEEEE;
   
     display: flex;
@@ -15,10 +15,16 @@
     align-content: center;
     width: 70%;
     padding: 2%;
+}/*
+  .form-label {
+   // min-width: 50px;
+  }*/
+  .phone {
+    width: 14rem;
   }
-  
   .others {
     height: 80px;
+    display: inline-block;
   }
   
   .btn-farm {
