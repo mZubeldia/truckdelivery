@@ -7,8 +7,8 @@ const CreateFarm = () => {
         Volver{" "}
       </Link>
 
-      <h2 className="main__title">Crear granja</h2>
-      <form action="" method="#" className="row g-3">
+      <h2 className="main__farm__title">Crear granja</h2>
+      <form action="" method="#" className="row g-3 farm-form">
         <div className="row">
           <div className="col">
             <div className="mb-3">

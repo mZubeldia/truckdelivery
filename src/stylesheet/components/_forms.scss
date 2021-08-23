@@ -1,9 +1,7 @@
 //styles for createFarm component
-.main {
-  background-color: #EEEEEE;
-}
 
-.main__title {
+
+.main__farm__title {
   margin-bottom: 2rem;
 }
 
@@ -16,6 +14,7 @@
     flex-direction: column;
     align-content: center;
     width: 70%;
+    padding: 2%;
   }
   
   .others {
