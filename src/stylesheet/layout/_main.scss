@@ -1,7 +1,16 @@
+//medias 1920×1080. 1366×768. 360×640.
 
-  .main {
+
+.main {
     height: 75vh;
     display: flex;
     justify-content: center;
 }
+
+.hidden {
+  display: inline;
+  visibility: hidden;
+  @media all and (min-width:640px){
+    visibility: visible;
+}}
   
