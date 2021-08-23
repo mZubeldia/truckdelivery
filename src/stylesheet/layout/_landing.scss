@@ -1,8 +1,8 @@
 //medias 1920×1080. 1366×768. 360×640.
 
-
+//main general
 .main {
-    height: 75vh;
+    height: 75%;
     background-color: #EEEEEE;
     display: flex;
     justify-content: center;
@@ -17,6 +17,12 @@
 
     }
 }
+//main landing
+.main-landing {
+  height: 75vh;
+}
+
+
 
 .hidden {
   display: inline;

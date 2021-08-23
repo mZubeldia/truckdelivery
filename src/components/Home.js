@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <main className="main">
+    <main className="main main-landing">
       <h2>
         <i class="fas fa-clipboard-list"></i> <i class="far fa-clock"></i>
       </h2>
