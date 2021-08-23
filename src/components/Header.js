@@ -15,21 +15,6 @@ const Header = () => {
               <i class="fas fa-plus"></i> <i class="fas fa-clipboard-list"></i>
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/granjas" className="nav-link ">
-              Granjas
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/tareas" className="nav-link">
-              Tareas
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/tareas-historico" className="nav-link">
-              Histórico de tareas
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>
