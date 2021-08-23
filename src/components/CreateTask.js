@@ -3,7 +3,7 @@ const CreateTask = () => {
   return (
     <main className="main main__task">
       <Link to="/" className="go-back-link">
-        Volver
+        <i class="far fa-arrow-alt-circle-left back-icon"></i>
       </Link>
 
       <h2 className="main__title">Nueva tarea</h2>

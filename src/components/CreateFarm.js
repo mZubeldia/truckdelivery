@@ -4,7 +4,7 @@ const CreateFarm = () => {
   return (
     <main className="main main__farm">
       <Link to="/" className="go-back-link">
-        Volver{" "}
+        <i class="far fa-arrow-alt-circle-left back-icon"></i>{" "}
       </Link>
 
       <h2 className="main__farm__title">Nueva granja</h2>
