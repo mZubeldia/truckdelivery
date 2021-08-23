@@ -4,7 +4,7 @@ const Home = () => {
       <h2>
         <i class="fas fa-clipboard-list"></i> <i class="far fa-clock"></i>
       </h2>
-      <ul className="main__list">
+      <ul className="main__list pending">
         <li className="main__list__item">
           Ruta 1 <div class="hidden">23/oct/21</div>
         </li>
@@ -18,7 +18,7 @@ const Home = () => {
       <h2>
         <i class="fas fa-clipboard-list"></i> <i class="fas fa-check"></i>
       </h2>
-      <ul className="main__list">
+      <ul className="main__list done">
         <li className="main__list__item">
           Ruta A <div class="hidden">14/apr/21</div>
         </li>
