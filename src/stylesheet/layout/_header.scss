@@ -1,6 +1,5 @@
-.header {
-//
-}
+//medias 1920×1080. 1366×768. 360×640.
+
 
 .navbar{
     height: 15%;
@@ -13,7 +12,11 @@
 //burger menu
 
 .hamburger {
-    //display: none;
+    display: none;
+    @media screen and (max-width: 640px) {
+        display: block;
+        margin-right: 1rem;
+    }
 }
 
 .hamburger-bar{
@@ -30,4 +33,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 0.5rem;
+    @media screen and (max-width: 640px) {
+     position: fixed;
+     left: -100%;
+     top: 5rem;
+     flex-direction: column;
+     background-color: #fff;
+     width: 100%;
+     text-align: center;
+    transition: 0.3s;
+    }
+    .nav-menu.active {
+    left: 0;
+    }
 }
+
+.nav-item {
+    margin-left: 1.5rem;
+    //border: solid 1px red;
+    @media screen and (max-width: 640px) {
+        margin: 2.5rem 0;
+    }
+}
+
+.nav-link{
+   // width: fit-content;
+    //border: solid 1px black;
+}
+
