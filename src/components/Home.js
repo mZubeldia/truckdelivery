@@ -1,10 +1,9 @@
 const Home = () => {
   return (
     <main className="main main-landing">
-      <h2>
-        <i class="far fa-clock pending-icon"></i>
-      </h2>
       <ul className="main__list pending">
+        <i class="far fa-clock pending-icon"></i>
+
         <li className="main__list__item">
           Ruta 1 <div class="hidden">23/oct/21</div>
         </li>
@@ -15,10 +14,10 @@ const Home = () => {
           Ruta 3 <div class="hidden">28/nov/21</div>
         </li>
       </ul>
-      <h2>
-        <i class="fas fa-check done-icon"></i>
-      </h2>
+
       <ul className="main__list done">
+        <i class="fas fa-check done-icon"></i>
+
         <li className="main__list__item">
           Ruta A <div class="hidden">14/apr/21</div>
         </li>

@@ -19,7 +19,7 @@
 }
 //main landing
 .main-landing {
-  height: 75vh;
+  //height: 75vh;
 }
 
 .hidden {
@@ -34,9 +34,35 @@
 
 .pending-icon{
   color: orange;
+  font-size: 2.20rem;
 }
 
 .done-icon {
   color:green;
+  font-size: 2.20rem;
+
+}
+
+.main__list {
+
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 1rem;
+
+  .main__list__item {
+    height: 4rem;
+    width: 8rem;
+    margin: 0.5rem 0;
+    
+    border: solid 2px #fff;
+    border-radius: 7px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center;
+}
+
 }
   
