@@ -1,5 +1,5 @@
-//import { slide as Menu } from "react-burger-menu";
 import { Link } from "react-router-dom";
+import Burguer from "./Burguer";
 const Header = () => {
   return (
     <header className="header">
@@ -7,7 +7,7 @@ const Header = () => {
         <h1 className="header-text">
           <a href="/">Truck Delivery</a>
         </h1>
-
+        {/* 
         <ul className="nav-menu">
           <li className="nav-item">
             <Link to="/nueva-granja" className="nav-link ">
@@ -20,7 +20,10 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+*/}
 
+        <Burguer />
+        {/*
         <div className="hamburger">
           <button type="button" className="hamburger-btn">
             <span className="hamburger-bar"></span>
@@ -28,6 +31,7 @@ const Header = () => {
             <span className="hamburger-bar"></span>
           </button>
         </div>
+        */}
       </nav>
     </header>
   );
