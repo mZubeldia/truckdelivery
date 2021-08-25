@@ -12,18 +12,15 @@ class Burguer extends React.Component {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
       <Menu right>
-        <ul className="nav-menu">
-          <li className="nav-item">
-            <Link to="/nueva-granja" className="nav-link ">
-              <i class="fas fa-plus"></i> <i class="fas fa-tractor"></i>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/nueva-tarea" className="nav-link">
-              <i class="fas fa-plus"></i> <i class="fas fa-clipboard-list"></i>
-            </Link>
-          </li>
-        </ul>
+        <Link to="/nueva-granja" className="nav-link ">
+          <i class="fas fa-plus burger-icon"></i>{" "}
+          <i class="fas fa-tractor burger-icon"></i>
+        </Link>
+
+        <Link to="/nueva-tarea" className="nav-link">
+          <i class="fas fa-plus burger-icon"></i>{" "}
+          <i class="fas fa-clipboard-list burger-icon"></i>
+        </Link>
       </Menu>
     );
   }

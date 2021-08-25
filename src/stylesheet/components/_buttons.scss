@@ -12,6 +12,7 @@
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #373a47;
+    border-radius: 3px;
   }
   
   /* Color/shape of burger icon bars on hover*/
@@ -28,6 +29,12 @@
   /* Color/shape of close button cross */
   .bm-cross {
     background: #bdc3c7;
+  }
+
+  .burger-icon {
+    color: #bdc3c7;
+   
+
   }
   
   /*
@@ -55,11 +62,15 @@
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
+    border: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: center;
   }
   
   /* Individual item */
   .bm-item {
     display: inline-block;
+    
   }
   
   /* Styling of overlay */
