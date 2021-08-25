@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <main className="main main-landing">
       <h2>
-        <i class="fas fa-clipboard-list"></i> <i class="far fa-clock"></i>
+        <i class="far fa-clock pending-icon"></i>
       </h2>
       <ul className="main__list pending">
         <li className="main__list__item">
@@ -16,7 +16,7 @@ const Home = () => {
         </li>
       </ul>
       <h2>
-        <i class="fas fa-clipboard-list"></i> <i class="fas fa-check"></i>
+        <i class="fas fa-check done-icon"></i>
       </h2>
       <ul className="main__list done">
         <li className="main__list__item">

@@ -22,12 +22,21 @@
   height: 75vh;
 }
 
-
-
 .hidden {
   display: inline;
   visibility: hidden;
   @media all and (min-width:640px){
     visibility: visible;
-}}
+}
+}
+
+//iconos
+
+.pending-icon{
+  color: orange;
+}
+
+.done-icon {
+  color:green;
+}
   
