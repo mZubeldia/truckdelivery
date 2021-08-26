@@ -4,16 +4,11 @@
 @import "core/mixins";
 
 // Layout
-@import 'layout/header';
-@import 'layout/landing';
-@import 'layout/footer';
+@import "layout/header";
+@import "layout/landing";
+@import "layout/footer";
 
 // Components
-@import "components/buttons";
+@import "components/bg-button";
 @import "components/links";
 @import "components/forms";
-
-
-
-
-
