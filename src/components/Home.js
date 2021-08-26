@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <main className="main main-landing">
-      <ul className="main__list pending">
-        <div class="today-wrapper">
+      <section className="main__list pending">
+        <ul class="today-wrapper">
           <div className="landing-title-wrapper">
             <i class="far fa-clock pending-icon landing-icon"></i>
             <div class="title-text-wrapper">
@@ -10,19 +10,27 @@ const Home = () => {
             </div>
           </div>
           <li className="main__list__item">
-            Ruta 1 <div class="hidden">Granja Norte</div>
+            <a href="#">
+              Ruta 1 <div class="hidden">Granja Norte</div>
+            </a>
           </li>
           <li className="main__list__item">
-            Ruta 2 <div class="hidden">Granja Sur</div>
+            <a href="#">
+              Ruta 2 <div class="hidden">Granja Sur</div>
+            </a>
           </li>
-        </div>
-        <li className="main__list__item">
-          Ruta 3 <div class="hidden">Granja Norte</div>{" "}
-          <div class="hidden">28 sept</div>
-        </li>
-      </ul>
+        </ul>
+        <ul class="pending-wrapper">
+          <li className="main__list__item">
+            <a href="#">
+              Ruta 3 <div class="hidden">Granja Norte</div>{" "}
+              <div class="hidden">28 sept</div>
+            </a>
+          </li>
+        </ul>
+      </section>
 
-      <ul className="main__list done">
+      <section className="main__list done">
         <i class="fas fa-check done-icon landing-icon"></i>
 
         <li className="main__list__item">
@@ -34,7 +42,7 @@ const Home = () => {
         <li className="main__list__item">
           Ruta C <div class="hidden">28/dec/20</div>
         </li>
-      </ul>
+      </section>
     </main>
   );
 };

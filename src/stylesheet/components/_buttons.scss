@@ -1,3 +1,5 @@
+//medias 1920×1080. 1366×768. 360×640.
+
 //burger button
 
 /* Position and sizing of burger button */
@@ -6,7 +8,12 @@
     width: 36px;
     height: 30px;
     right: 36px;
-    top: 4%;
+    top: 3%;
+
+    
+    @media all and (min-width:768px){
+      top: 4%;
+  }
   }
   
   /* Color/shape of burger icon bars */

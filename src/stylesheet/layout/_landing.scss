@@ -10,10 +10,10 @@
 
     .pending{
       padding-bottom: 0.5rem;
+
     }
     .done{
       padding-bottom: 0.5rem;
-      //border: solid 2px black;
 
     }
 }
@@ -54,7 +54,8 @@
   text-align: center;
   flex-direction: column;
   padding: 1rem;
-
+  
+//lista hoy 
 .today-wrapper {
   width: 12rem;
   //height: 6rem;
@@ -66,13 +67,22 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center;  
-  text-align: center;
+  //justify-content: center;  
+  //text-align: center;
+
+  align-self: center;
 
 
 }
 
 
+}
+
+.main__list.pending {
+  display:flex;
+  flex-direction: column;
+  width: 30%;
+  
 }
 
 .main__list__item {
@@ -86,13 +96,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;  
-  text-align: center;
   color: #334257;
+
+  align-self: center;
 
 }
 
 
-//lista hoy 
+
 
 
   
