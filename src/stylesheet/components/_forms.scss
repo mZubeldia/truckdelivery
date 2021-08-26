@@ -17,12 +17,13 @@
   padding: 2%;
 
   .form-container {
-    width: fit-content;
     display: flex;
     flex-direction: column;
+    width: fit-content;
     //border: solid 1px black;
 
     justify-content: center;
+    align-content: center;
   }
 }
 
@@ -54,5 +55,11 @@
 
 .input {
   min-width: 15rem;
-  max-width: 20rem;
+  @media all and (min-width: 640px) {
+    min-width: 25rem;
+  }
+  @media all and (min-width: 1080px) {
+    min-width: 30rem;
+  }
+  //max-width: 25rem;
 }

@@ -49,9 +49,8 @@ const CreateFarm = () => {
               placeholder="Tipo de entrada, hora de apertura, etc."
             />
           </label>
+          <button className="btn-farm btn btn-primary">Crear</button>
         </div>
-
-        <button className="btn-farm btn btn-primary">Crear</button>
       </form>
     </main>
   );
