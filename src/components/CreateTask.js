@@ -15,7 +15,7 @@ const CreateTask = () => {
             <label htmlFor="farm" class="form-label">
               Granja
               <select
-                class="form-select form-select-sm"
+                class="form-select form-select-sm input"
                 aria-label=".form-select-sm example"
                 id="farm"
                 name="farm"
@@ -31,10 +31,10 @@ const CreateTask = () => {
             <label htmlFor="truck" class="form-label">
               Camión
               <select
-                aria-label=".form-select-sm example"
+                aria-label=".form-select-sm example "
                 id="truck"
                 name="truck"
-                class="form-select form-select-sm"
+                class="form-select form-select-sm input"
               >
                 <option selected>Tipo camión</option>
                 <option value="sm">Camión 1</option>
@@ -48,10 +48,10 @@ const CreateTask = () => {
             <label htmlFor="abattoir" class="form-label">
               Matadero
               <select
-                aria-label=".form-select-sm example"
+                aria-label=".form-select-sm example "
                 id="abattoir"
                 name="abattoir"
-                class="form-select form-select-sm"
+                class="form-select form-select-sm input"
               >
                 <option selected>Matadero</option>
                 <option value="a1">Matadero 1</option>
@@ -65,10 +65,10 @@ const CreateTask = () => {
             <label htmlFor="employee" class="form-label">
               Empleado
               <select
-                aria-label=".form-select-sm example"
+                aria-label=".form-select-sm example "
                 id="employee"
                 name="employee"
-                class="form-select form-select-sm"
+                class="form-select form-select-sm input"
               >
                 <option selected>Nombre empleado</option>
                 <option value="123">Juan Perez</option>
@@ -95,7 +95,7 @@ const CreateTask = () => {
                   <label className="form-label" htmlFor="pig-type">
                     Tipo cerdos
                     <select
-                      class="form-select form-select-sm"
+                      class="form-select form-select-sm input"
                       aria-label=".form-select-sm example"
                       id="pig-type"
                       name="pig-type"

@@ -14,7 +14,7 @@ const CreateFarm = () => {
             <label htmlFor="new-farm" className="form-label">
               Nombre
               <input
-                className="form-control"
+                className="form-control input"
                 type="text"
                 name="new-farm"
                 placeholder="Granja Pepe"
@@ -25,7 +25,7 @@ const CreateFarm = () => {
             <label htmlFor="location" className="form-label">
               Geolocalización
               <input
-                className="form-control"
+                className="form-control input"
                 type="text"
                 name="location"
                 placeholder="1.111.111"
@@ -36,7 +36,7 @@ const CreateFarm = () => {
           <label htmlFor="phone" className="form-label phone">
             Telefono
             <input
-              className="form-control"
+              className="form-control input"
               type="text"
               name="phone"
               placeholder="656 111 223"
@@ -47,7 +47,7 @@ const CreateFarm = () => {
             <label htmlFor="others" className="form-label">
               Comentarios
               <textarea
-                className="form-control"
+                className="form-control input"
                 type="textarea"
                 name="others"
                 rows="3"
