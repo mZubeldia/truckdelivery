@@ -18,9 +18,6 @@
     }
 }
 //main landing
-.main-landing {
-  //height: 75vh;
-}
 
 .hidden {
   display: inline;
@@ -48,12 +45,20 @@
 
 //listas
 
-.main__list {
+.main__list { //clase compartida de pending y done
 
   display: flex;
   text-align: center;
   flex-direction: column;
   padding: 1rem;
+  justify-content: center;
+  
+  .pending { //toda seccion de pendings 
+    display:flex;
+  flex-direction: column;
+  
+    
+  }
   
 //lista hoy 
 .today-wrapper {
@@ -71,19 +76,38 @@
   //text-align: center;
 
   align-self: center;
-
-
-}
-
-
-}
-
-.main__list.pending {
-  display:flex;
-  flex-direction: column;
-  width: 30%;
   
+
+.pending-wrapper{ //los pending que no son de hoy
+
+  flex-direction: column;
+  width: 10rem;
+  align-self: center;
+  display: flex;
+  
+  //justify-content: center; 
+  }
+  //lista completos
+  .done-wrapper{
+//
+width: 10rem;
+display: flex;
+  flex-direction: column;
+align-self: center;
+  }
+
 }
+
+  .done-link{
+    
+    align-self: center;
+  }
+  
+
+
+
+}
+
 
 .main__list__item {
   height: 6rem;
@@ -100,6 +124,11 @@
 
   align-self: center;
 
+  .pending-link{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
 }
 
 
